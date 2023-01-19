@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
--   Solution URL: [Add solution URL here](https://github.com/Andro87/github-user-search-app.git)
--   Live Site URL: [Add live site URL here](https://github-user-search-app-five.vercel.app/)
+-   Solution URL: [Solution URL ](https://github.com/Andro87/github-user-search-app.git)
+-   Live Site URL: [Live site URL](https://github-user-search-app-five.vercel.app/)
 
 ## My process
 
