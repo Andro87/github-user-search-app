@@ -29,12 +29,12 @@ Users should be able to:
 
 ### Screenshot
 
-![GitHub user search app solution](./public/images/screenshot.png)
+![GitHub user search app solution](./public/assets/screenshot.png)
 
 ### Links
 
--   Solution URL: [Add solution URL here](https://your-solution-url.com)
--   Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+-   Solution URL: [Add solution URL here](https://github.com/Andro87/github-user-search-app.git)
+-   Live Site URL: [Add live site URL here](https://github-user-search-app-five.vercel.app/)
 
 ## My process
 
@@ -60,7 +60,7 @@ I learnt how to create an interface that describes what is in the response, how 
 
 ## Author
 
--   Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+-   Frontend Mentor - [@Andro87](https://www.frontendmentor.io/profile/Andro87)
 
 ## Acknowledgments
 
