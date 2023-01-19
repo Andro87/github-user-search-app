@@ -1,0 +1,45 @@
+.contact_wrap {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+}
+
+.contact_not_available {
+    opacity: 0.5;
+}
+
+.contact_wrap a,
+.contact_wrap p {
+    font-family: inherit;
+    font-size: 0.8125rem;
+    font-weight: 400;
+    line-height: 1.1875rem;
+    color: var(--darker-text);
+    text-decoration: none;
+}
+.contact_wrap p {
+    margin: 0;
+}
+
+.contact_not_available a:hover {
+    text-decoration: none;
+    cursor: none;
+}
+
+@media screen and (min-width: 650px) {
+    .contact_wrap {
+        gap: 19px;
+    }
+    .contacts_wrap a,
+    .contacts_wrap p {
+        font-size: 0.9375rem;
+        line-height: 1.3887rem;
+    }
+    .contact_wrap a:hover {
+        text-decoration: underline;
+    }
+    .contact_not_available a:hover {
+        text-decoration: none;
+        cursor: none;
+    }
+}

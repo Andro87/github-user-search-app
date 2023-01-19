@@ -1,0 +1,35 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    color: var(--logo);
+    font-size: 1.625rem;
+    font-weight: 700;
+    line-height: 2.5rem;
+}
+.toggle_container {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.toggle_container p {
+    text-transform: uppercase;
+    color: var(--darker-text);
+    font-size: 0.8125rem;
+    font-weight: 700;
+    line-height: 1.1875rem;
+}
+
+.toggle_container:hover {
+    cursor: pointer;
+}
+.toggle_container:hover p {
+    color: var(--hover-toggle);
+}
+
+.toggle_container:hover svg path {
+    fill: var(--hover-toggle);
+}

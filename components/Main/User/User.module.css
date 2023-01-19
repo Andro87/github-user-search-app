@@ -1,0 +1,135 @@
+.user_container {
+    margin-top: 16px;
+    background-color: var(--secondary-background);
+    border-radius: 15px;
+    box-shadow: 0px 16px 30px -10px hsla(227, 46%, 51%, 0.2);
+    padding: 32px 24px 48px;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-areas:
+        " image info"
+        " bio bio"
+        "data data"
+        " contacts contacts";
+}
+
+.user_avatar {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    grid-area: image;
+    margin-right: 20px;
+}
+
+.user_info {
+    font-size: 0.8125rem;
+    line-height: 1.25rem;
+    grid-area: info;
+}
+
+.user_info span {
+    color: var(--ligth-blue);
+    text-transform: lowercase;
+    display: block;
+}
+
+.user_info p {
+    color: var(--darker-text);
+    margin-bottom: 0;
+    margin-top: 8px;
+}
+
+.user_bio {
+    line-height: 1.5625rem;
+    color: var(--regular-text);
+    grid-area: bio;
+}
+.no_user_bio {
+    opacity: 0.75;
+}
+.user_data {
+    background-color: var(--primary-background);
+    border-radius: 10px;
+    padding: 18px 15px;
+    grid-area: data;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 24px;
+}
+
+.user_contacts {
+    grid-area: contacts;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+@media screen and (min-width: 650px) {
+    .user_container {
+        margin-top: 24px;
+        padding: 40px;
+    }
+
+    .user_avatar {
+        width: 117px;
+        height: 117px;
+        margin-right: 40px;
+    }
+
+    .user_info {
+        font-size: 0.9357rem;
+        line-height: 1.5625rem;
+    }
+    .user_info span {
+        font-size: 1rem;
+    }
+
+    .user_data {
+        text-align: start;
+        padding: 15px 32px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+
+    .user_contacts {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .wrapper {
+        gap: 20px;
+    }
+}
+
+@media screen and (min-width: 950px) {
+    .user_container {
+        padding: 44px 48px 48px;
+
+        grid-template-areas:
+            " image info"
+            " . bio"
+            " . data"
+            " . contacts";
+    }
+    .user_avatar {
+        margin-right: 35px;
+    }
+
+    .user_info {
+        position: relative;
+    }
+    .user_info p {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    .user_data {
+        margin-bottom: 35px;
+    }
+}
